@@ -72,6 +72,22 @@ a {
      box-sizing: border-box;
 }
 
+/****** Footer ********/
+
+footer {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     padding: 20px 100px 20px 30px;
+     background-color: #f2f2f2;
+     margin-top: 60px;
+}
+
+footer ul li {
+     line-height: 38px;
+     font-size: 15px;
+}
+
 /****** Hebergements ***********/
 .hebergements {
      width: 65%;
@@ -283,8 +299,8 @@ ul {
      border: solid 2px #d9d9d9;
      padding: 10px;
      border-radius: 50%;
-     height: 9px;
-     width: 9px;
+     height: 2px;
+     width: 2px;
      align-items: center;
      display: flex;
      justify-content: center;
@@ -337,6 +353,7 @@ ul {
      flex-direction: row;
      flex-wrap: wrap;
      gap: 30px;
+     padding: 0px 20px;
 }
 
 .activites h3 {
@@ -345,7 +362,7 @@ ul {
 }
 
 .wrap-activites a {
-     height: 450px;
+     height: 400px;
      width: 300px;
      border-radius: 30px;
      overflow: hidden;
@@ -354,7 +371,7 @@ ul {
 
 .wrap-activites img {
      object-fit: cover;
-     height: 400px;
+     height: 350px;
      width: 100%;
 }
 
