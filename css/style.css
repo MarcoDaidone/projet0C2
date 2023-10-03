@@ -145,7 +145,7 @@ footer ul li {
      width: 400px;
      position: relative;
      height: 50px;
-     border-radius: 8px;
+     border-radius: 17px;
      overflow: hidden;
      border: solid 1px #f2f2f2;
 }
@@ -317,7 +317,6 @@ ul {
 
 .contain_hebergement a {
      height: 200px;
-     overflow: hidden;
      width: 30%;
 }
 
@@ -482,8 +481,9 @@ ul {
      }
 
      .filter_result {
-          width: 33%;
+          width: 40%;
           justify-content: unset;
+          padding: 10px 7px;
      }
 
      .filter_result {
