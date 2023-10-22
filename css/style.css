@@ -12,7 +12,9 @@
 .fa-solid {
      color: var(--main-color);
 }
-
+html {
+     scroll-behavior: smooth; /* Active le défilement fluide sur toute la page */
+}
 body {
      display: flex;
      justify-content: center;
@@ -312,7 +314,7 @@ ul {
      flex-direction: row;
      flex-wrap: wrap;
      justify-content: space-between;
-     gap: 30px;
+     row-gap: 30px;
 }
 
 .contain_hebergement a {
@@ -351,8 +353,9 @@ ul {
      display: flex;
      flex-direction: row;
      flex-wrap: wrap;
-     gap: 30px;
+     justify-content: space-between;
      padding: 0px 20px;
+     row-gap: 30px;
 }
 
 .activites h3 {
@@ -361,8 +364,8 @@ ul {
 }
 
 .wrap-activites a {
-     height: 400px;
-     width: 300px;
+     height: auto;
+     width: 22%;
      border-radius: 30px;
      overflow: hidden;
      box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
@@ -377,7 +380,7 @@ ul {
 .wrap-activites p {
      font-weight: bold;
      padding-left: 20px;
-     margin-top: 7px;
+     margin-top: 13px;
 }
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
@@ -422,6 +425,10 @@ ul {
 
      .populaires-cards .card-subtitle {
           font-size: 13px;
+     }
+
+     .wrap-activites img {
+          height: 234px;
      }
 }
 
@@ -557,10 +564,7 @@ ul {
      .activites h2 {
           padding-left: 15px;
      }
-     .wrap-activites a {
-          width: 100%;
-          height: 220px;
-     }
+
      .wrap-activites img {
           height: 160px;
      }
@@ -573,5 +577,13 @@ ul {
      }
      .info {
           margin-bottom: 0px;
+     }
+     .wrap-activites a {
+          width: 100%;
+     }
+}
+@media (min-width: 1024px) and (max-width: 1300px) {
+     .wrap-activites img {
+          height: 326px;
      }
 }
