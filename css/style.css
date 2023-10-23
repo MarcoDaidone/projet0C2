@@ -50,7 +50,7 @@ a {
 }
 
 .card-title {
-     font-size: 16px;
+     font-size: 14px;
 }
 
 .euro {
@@ -376,8 +376,7 @@ ul {
      height: 350px;
      width: 100%;
 }
-
-.wrap-activites p {
+out .wrap-activites p {
      font-weight: bold;
      padding-left: 20px;
      margin-top: 13px;
